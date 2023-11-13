@@ -1,0 +1,24 @@
+
+> next-elba-template@0.1.0 build F:\My work\elba-security\apps\asana-service
+> next build
+
+   ▲ Next.js 14.0.1
+
+   Creating an optimized production build ...
+ ✓ Compiled successfully
+   Linting and checking validity of types ...
+The `next` config requires an optional peer dependency, which has not been installed.
+
+To install it, run:
+- pnpm install @next/eslint-plugin-next@>=12.3.0 <14
+
+> Build error occurred
+Error: Jest worker encountered 1 child process exceptions, exceeding retry limit
+    at ChildProcessWorker.initialize (F:\My work\elba-security\node_modules\.pnpm\next@14.0.1_react-dom@18.2.0_react@18.2.0\node_modules\next\dist\compiled\jest-worker\index.js:1:11580)
+    at ChildProcessWorker._onExit (F:\My work\elba-security\node_modules\.pnpm\next@14.0.1_react-dom@18.2.0_react@18.2.0\node_modules\next\dist\compiled\jest-worker\index.js:1:12545)
+    at ChildProcess.emit (node:events:513:28)
+    at ChildProcess.emit (node:domain:489:12)
+    at ChildProcess._handle.onexit (node:internal/child_process:291:12) {
+  type: 'WorkerError'
+}
+ ELIFECYCLE  Command failed with exit code 1.
